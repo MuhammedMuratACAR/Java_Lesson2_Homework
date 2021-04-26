@@ -10,7 +10,6 @@ public class Student {
 		this.age=age;
 		this.city=city;
 		this.mail=mail;
-	
 	}
 	
 	int id;
