@@ -59,7 +59,7 @@ public class Main {
 		studentManager.addToStudent(student2);
 		studentManager.deleteToStudent(student3);
 		
-
 	}
 
 }
+
