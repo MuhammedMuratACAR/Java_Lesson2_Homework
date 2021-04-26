@@ -20,6 +20,4 @@ public class Course {
 	String instructor;
 	int progress;
 
-	
- 
 }

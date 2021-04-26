@@ -3,18 +3,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Course course1=new Course(1,"Yazýlým Geliþtirici Yetiþtirme Kampý (C# + ANGULAR)","Engin Demiroð",90);
+		Course course1=new Course(1,"Yazï¿½lï¿½m Geliï¿½tirici Yetiï¿½tirme Kampï¿½ (C# + ANGULAR)","Engin Demiroï¿½",90);
 		
 		Course course2=new Course();
 		course2.id=2;
-		course2.name="Yazýlým Geliþtirici Yetiþtirme Kampý (JAVA + REACT)";
-		course2.instructor="Engin Demiroð";
+		course2.name="Yazï¿½lï¿½m Geliï¿½tirici Yetiï¿½tirme Kampï¿½ (JAVA + REACT)";
+		course2.instructor="Engin Demiroï¿½";
 		course2.progress=25;
 		
 		Course course3=new Course();
 		course3.id=3;
-		course3.name="Programlamaya Giriþ için Temel Kurs";
-		course3.instructor="Engin Demiroð";
+		course3.name="Programlamaya Giriï¿½ iï¿½in Temel Kurs";
+		course3.instructor="Engin Demiroï¿½";
 		course3.progress=100;
 
 		Course[] courses= {course1,course2,course3};
@@ -27,14 +27,14 @@ public class Main {
 		
 		Student student2=new Student();
 		student2.id=2;
-		student2.name="Osman Çoþkun";
+		student2.name="Osman ï¿½oï¿½kun";
 		student2.age=20;
-		student2.city="Ýstanbul";
+		student2.city="ï¿½stanbul";
 		student2.mail="osmansckn@gmail.com";
 		
 		Student student3=new Student();
 		student3.id=2;
-		student3.name="Berat Çetin";
+		student3.name="Berat ï¿½etin";
 		student3.age=22;
 		student3.city="Bursa";
 		student3.mail="beratcetin@gmail.com";
@@ -42,9 +42,9 @@ public class Main {
 		Student[] students= {student1,student2,student3};
 		for (Student student : students) {
 			System.out.println(
-					"Öðrencinin Adý: " + student.name +
-					" Yaþý: " + student.age + 
-					" Yaþadýðý Þehir: " + student.city+
+					"ï¿½ï¿½rencinin Adï¿½: " + student.name +
+					" Yaï¿½ï¿½: " + student.age + 
+					" Yaï¿½adï¿½ï¿½ï¿½ ï¿½ehir: " + student.city+
 					" Mail: " + student.mail
 					);
 		}
@@ -58,6 +58,7 @@ public class Main {
 		studentManager.studentList(student1);
 		studentManager.addToStudent(student2);
 		studentManager.deleteToStudent(student3);
+		
 
 	}
 

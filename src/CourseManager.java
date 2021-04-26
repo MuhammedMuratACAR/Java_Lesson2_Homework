@@ -9,3 +9,4 @@ public class CourseManager {
 	        System.out.println(course.name+" "+course.instructor+" "+course.progress+" == "+"Course succesfully added:)");
 	    }
 }
+

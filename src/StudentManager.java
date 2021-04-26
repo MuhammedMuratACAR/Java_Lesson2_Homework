@@ -14,3 +14,5 @@ public class StudentManager {
 	        System.out.println(student.name + " " + student.age + " " + student.city + " " + student.mail+" == "+"Student succesfully delete:)");
 	    }
 }
+
+
