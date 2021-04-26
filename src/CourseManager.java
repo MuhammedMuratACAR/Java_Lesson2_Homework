@@ -1,7 +1,11 @@
 
 public class CourseManager {
 
-	public void CourseList( Course course) {
-		System.out.println("Kayıt Olunmuş Kurslar " + course.name + course.instructor);
+	public void courseList(Course course) {
+		System.out.println("Registered Courses " + course.name + course.instructor);
 	}
+	
+	  public void addToCourse(Course course){
+	        System.out.println(course.name+" "+course.instructor+" "+course.progress+" == "+"Course succesfully added:)");
+	    }
 }

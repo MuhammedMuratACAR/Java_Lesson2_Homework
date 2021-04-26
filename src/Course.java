@@ -1,7 +1,7 @@
 
 public class Course {
 	public Course() {
-		System.out.println("Kurslar Listesi");
+		System.out.println("Course List");
 	}
 	 
 	public Course(int id,String name,String instructor,int progress) {

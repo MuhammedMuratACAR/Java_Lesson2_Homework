@@ -50,9 +50,15 @@ public class Main {
 		}
 		
 		CourseManager courseManager=new CourseManager();
-		courseManager.CourseList(course1);
-		courseManager.CourseList(course2);
-		courseManager.CourseList(course3);
+		courseManager.courseList(course1);
+		courseManager.addToCourse(course2);
+
+		
+		StudentManager studentManager=new StudentManager();
+		studentManager.studentList(student1);
+		studentManager.addToStudent(student2);
+		studentManager.deleteToStudent(student3);
+
 	}
 
 }
